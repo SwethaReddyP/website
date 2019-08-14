@@ -1,0 +1,52 @@
+$header-height: 4.5rem;
+$header-bg-color: #fff;
+$color-green:green;
+$myfont:bold;
+
+.header {
+    min-height: $header-height;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+    border-bottom: 1px solid #e7e7e7;
+    .active-link {
+        color: $color-green;
+    }
+    &__brand {
+        font-size: 25px;
+        font-weight: $myfont;
+    }
+
+    &__span {
+        color: $color-green;
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+        margin-left: 31rem;
+        font-size: 12px;
+        font-weight: $myfont;
+    }
+
+    &__item {
+        padding-right: 3rem;
+        &:hover {
+            color: $color-green;
+        }
+        a{
+            text-decoration: none;
+            &:hover {
+                color: $color-green;
+            }
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,43 @@
+$myfont:24px;
+$myfont1:13px;
+$my-color:gray;
+.service{
+    &__row{
+        margin: 0rem 5rem;
+        margin-bottom:2rem
+    }
+    &__header{
+        font-size:$myfont;
+        font-weight: 600;
+        padding-left: 8rem;
+        padding-bottom: 1rem;    
+    }
+    &__content{
+        margin-top: 30px;
+        font-size: $myfont1;    
+        width: 77%;
+        color: $my-color;    
+    }
+    &__text{
+        font-size: 20px;
+        font-weight: 600;
+        color: #1BBD36;    
+    }
+    &__text1{
+        font-size:50px;
+        color: #1BBD36;    
+        padding-bottom:5px;
+    }
+    &__text2{
+        width: 58%;
+        padding-left: 2rem;    
+        font-size:$myfont1;
+        padding: 30px;
+    }
+    &__last{
+        background: #ddd;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        margin-bottom: -4rem;    
+    }
+}

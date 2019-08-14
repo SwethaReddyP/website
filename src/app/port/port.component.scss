@@ -1,0 +1,67 @@
+$bg-color:green;
+$mycolor:#fff;
+$myfont:24px;
+$myfont1:18px;
+
+.port{
+    &__nav {
+        background-color: #1BBD36;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        padding: 30px 4rem;
+
+    }
+
+    &__item1 {
+        color: $mycolor;
+    }
+    &__text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+text-align: center;    
+    }
+    &__row{
+        padding: 0rem 12rem;
+    }
+&__btn{
+    margin-left: 21rem;
+    margin-bottom: 5rem;
+}
+&__btn1{
+    margin-right: 3rem;
+    background: #1BBD36;
+    border: 1px solid #1BBD36;
+    color:white;
+}
+&__btn2{
+    margin-right: 3rem;
+    border-radius: 3px;
+    color: #333;
+    background-color: #d4d4d4;
+    border:none;
+    &:hover{
+        color:white;
+        background: #1BBD36;
+        border: 1px solid #1BBD36;      
+    }
+}
+&__content{
+    padding: 0.6rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+&__content1{
+    font-size: 14px;
+    width: 97%;
+    color: gray;
+    padding-left: 6px;
+
+}
+&__icon{
+    padding-left: 5px;
+    color: gray;
+}
+}

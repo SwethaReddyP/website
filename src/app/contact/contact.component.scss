@@ -1,0 +1,61 @@
+$bg-color:green;
+$mycolor:#fff;
+$myfont:24px;
+$myfont1:18px;
+.contact{
+    &__nav {
+        background-color: #1BBD36;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        padding: 30px 4rem;
+
+    }
+
+    &__item1 {
+        color: $mycolor;
+    }
+
+    text-align: center;
+    &__header{
+        font-family: inherit;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    &__header1{
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 1rem;    
+    }
+    &__form1{
+        margin-bottom: 1rem;
+    }
+    &__form2{
+        padding: 7px;
+        padding-left: 10px;
+        padding-right: 14rem;
+        color: gray;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    
+    }
+    &__form3{
+        padding-right: 15rem;
+        padding-left: 10px;
+        color: gray;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    &__btn1{
+        padding: 8px 20px;
+        background: #1BBD36;
+        color: #fff;
+        border-radius: 4px;
+        border: none;
+        margin-top: 10px;    
+    }
+}

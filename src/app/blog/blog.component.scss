@@ -1,0 +1,140 @@
+$mycolor:#fff;
+$myfont:24px;
+$myfont1:18px;
+$myfont2:18px;
+$myfont3:13px;
+$mycolor1:gray;
+
+.blog{
+    &__nav {
+        background-color: #1BBD36;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        padding: 30px 4rem;
+    }
+    &__item1 {
+        color: $mycolor;
+    }
+    &__date{
+        background: green;
+        width: 49%;
+        height: 31px;
+    color:gray;
+    }
+    &__name,&__name1,&__name2{
+        border-bottom: 2px solid #fff;
+        padding-bottom:10px;
+        color:gray;
+        padding-left: 6px;
+    }
+    &__names{
+        width: 49%;
+        background-color: rgb(245, 245, 245);
+    
+    }
+    &__text{
+        font-size:$myfont2;
+        font-weight: 500;
+        margin: 1rem;
+    }
+    &__text1{
+        font-size: $myfont3;
+        color: $mycolor1;
+        width: 86%;
+        padding-left: 11px;
+    
+    }
+    &__btn{
+        background-color: #1BBD36;
+        border:none;
+        color:$mycolor ;
+        width: 119px;
+        height: 36px;
+        margin-top: 9px;
+        border-radius: 6%;
+    
+    }
+    &__input{
+        padding: 8px;
+        padding-right: 6rem;
+        font-size: 15px;
+    
+    }
+    &__comments{
+        font-size: $myfont;
+        font-weight: 400;
+        font-family: inherit;
+        padding-top: 37px;
+        padding-bottom: 13px;
+    }
+    &__user{
+        font-size: 3rem;
+        background: #ddd;
+        width: 49%;
+        padding-left: 2rem;
+        color:$mycolor;
+        border-radius: 6%;    
+    }
+    &__user1,&__user2{
+        font-size: $myfont3;
+        color: $mycolor1;
+        width: 97%;    
+    }
+    &__column{
+        margin-bottom: 2rem;
+    }
+    &__blogimg{
+        width: 100%;
+        margin-top: 3rem;    
+    }
+    &__btnn{
+        margin-bottom: 1.2rem;
+        margin-left: 14px;
+    }
+    &__btn5{
+        background: #f5f5f5;
+        border-radius: 4px;
+        color: #888;
+        border: none;
+        padding: 6px 27px;
+    &:hover{
+        background-color: #1BBD36;
+        color:$mycolor;
+        opacity:0.8;
+    }
+    }
+    &__cat{
+        font-size: 24px;
+        padding: 13px;    
+    }
+    &__achieve{
+        margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 22px;
+    }
+    &__list1{
+        list-style-type: none;
+    }
+    &__items{
+        font-size: 13px;
+        padding: 15px;    
+    }
+    &__num1{
+        padding-left:10rem;
+    }
+    &__items1{
+        border-bottom: 1px solid gainsboro;
+        padding: 10px;
+    }
+    &__date2{
+        margin-top: 24rem;
+    }
+      &__row{
+        margin: 0rem 5rem;
+      }  
+    }
+
+

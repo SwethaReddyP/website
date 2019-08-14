@@ -1,0 +1,129 @@
+$myfont:50px;
+$mycolor: #1BBD36;
+
+.home {
+    &__row{
+        background-image: url("/assets/backgroundimage.jpg");
+    }
+    &__row1 {
+        padding: 0rem 13rem;
+        margin-left:1rem;
+        margin-bottom: 4rem;
+    }
+    &__row2 {
+        padding: 0rem 8rem;
+        background: #eee;
+        padding-bottom: 3rem;
+    }
+    &__header {
+        font-size: $myfont;
+        font-weight: 800;
+        color:#fff;
+    }
+    &__header1 {
+        font-size: $myfont;
+        color: $mycolor;
+    }
+    &__content {
+        color: #ddd;
+        font-size: 25px;
+    }
+    &__btn {
+        background-color: #1BBD36;
+        border: none;
+        color: #ddd;
+        padding: 7px 20px;
+        margin-top: 10px;    
+    }
+    &__img {
+        width: 541px;
+        height: 216px;
+    }
+
+    &__title {
+        font-size: 30px;
+        margin: 0.6rem;
+    }
+
+    &__text {
+        width: 94%;
+        font-size: 14px;
+        color: gray;
+        padding-left: 14px;
+        margin-top: 1rem;
+
+    }
+
+    &__text2,
+    &__text3 {
+        font-size: 14px;
+        color: gray;
+        margin: 1rem;
+    }
+
+    &__news {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__service {
+        width: 350px;
+        height: 201px;
+    }
+
+    &__servtext {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__servtext1 {
+        font-size: 14px;
+        font-size: 14px;
+        color: gray;
+    }
+
+    &__row3 {
+        padding: 0rem 11rem;
+    }
+    &__welcome{
+        margin-top: 6rem;
+        padding-left: 6rem;    
+    }
+
+    &__icons {
+        font-size: 40px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        color: #fff;
+        padding: 50px;
+        background: #1BBD36;
+        border-radius: 50%;
+    }
+    &__icons:hover{
+            background-color:#fff;
+            transition-delay: 0.1s;
+            transition-duration: 1s;
+
+    }
+
+    &__response {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: #1BBD36;
+        padding-left: 1rem;
+    }
+
+    &__response1 {
+        color: #333;
+        font-size: 13px;
+        width: 108%;
+    }
+        
+}

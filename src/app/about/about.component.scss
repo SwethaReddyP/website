@@ -1,0 +1,95 @@
+$bg-color:#1BBD36;
+$mycolor:#fff;
+$myfont:24px;
+$myfont1:18px;
+.about {
+    &__nav {
+        background-color: $bg-color;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        padding: 30px 4rem;
+
+    }
+    &__item1 {
+        color: $mycolor;
+    }
+
+    &__content {
+        font-size: $myfont;
+        padding-left: 8rem;
+        font-weight: bold;
+        opacity: 0.8;
+        padding-bottom: 1rem;
+    }
+    &__text{
+        font-size: 18px;
+        font-weight: bold;
+        opacity: 0.8;
+        padding-bottom: 0.6rem;
+        padding-top: 1rem;
+    }
+    &__text2{
+        font-size: 14px;    
+        padding-bottom: 0.6rem;
+        color: gray;   
+    }
+    &__heading,&__heading1,&__heading2,&__heading3{
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 0.8;    
+        padding-bottom: 1rem;
+    }
+    &__content1{
+        font-size: 30px;
+    }
+    &__content2{
+        font-size:13px;
+        padding-bottom: 0.6rem;
+    }
+    &__row{
+        margin: 0rem 8rem;
+        margin-bottom: 4rem;
+    }
+    &__name{
+        font-size: 18px;  
+        text-align: center; 
+        padding: 0.8rem; 
+    }
+    &__name1{
+        text-align: center;
+        width: 81%;
+        font-size: 13px;
+        color: gray; 
+        padding-bottom: 2rem; 
+        padding-left: 5rem;  
+    }
+    &__img{
+        width: 300px;
+        height: 300px;   
+        margin-left: 6rem;
+        padding-top:3rem;
+    }
+    &__last{
+        margin-bottom: -4rem;
+        background: #ddd;
+    }
+}
+.progress{
+    background: #2d7da4;
+    margin-bottom: 1rem;
+    padding-bottom: 26px;
+}
+.progress1{
+    background: #6aa42f;
+    margin-bottom: 1rem;
+}    
+.progress2{
+    background:yellow;
+    margin-bottom: 1rem;
+}
+.progress3{
+    background: #db3615;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,17 @@
+1) first create header and footer  -> done kkk   now design header same as that website footekkk carry on 
+ -> comapany header nundi che pina di vaddukkkk
+2) then routing 
+3) then each compoent desing 
+
+header and footer ni app.component.html lo pettali remainig anni routing 
+got it ?
+crying y artham kaleda antaha cheyala ani ha mari 
+with BEM and scss _ variable mixins 
+take complete day no worries 
+ekkada create cheskovala anni html anni confused first create header and footer compoent 
+ng g c header
+ng g c footer 
+do this ekkada create cheyala  ctrl+esc kinda
+
+
+now go to header and copy selec
