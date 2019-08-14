@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-welcome="WELCOME";
+  @Input() users: any;
+  @Output() chileData= new EventEmitter()
+  @Output() chileData2 = new EventEmitter();
+  welcome = "WELCOME";
+  headerData = {
+    name: 'header coompnent',
+    websiteName: "my own website"
+  }
   constructor() { }
 
   ngOnInit() {
+    console.log('header component data :', this.users);
   }
-
+  sendDataToParent(){
+    this.chileData.emit(this.headerData);
+    this.chileData2.emit(this.headerData);
+  }
 }
+// 

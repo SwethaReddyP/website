@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-
+  @Input() users: any;
+  @Output() chileData= new EventEmitter()
   constructor() { }
-
-  ngOnInit() {
+  footerData = {
+    name: 'footer coompnent',
+    websiteName: "my own website"
   }
+  ngOnInit() {
+    console.log('footer component data :', this.users);
 
+  }
+  sendDataToParent(){
+    this.chileData.emit(this.footerData);
+  }
 }
