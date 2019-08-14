@@ -12,6 +12,7 @@ import { PortComponent } from './port/port.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LatestnewsComponent } from './latestnews/latestnews.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     ServicesComponent,
     PortComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    LatestnewsComponent
   ],
   imports: [
     BrowserModule,
