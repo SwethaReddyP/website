@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-port',
@@ -14,9 +15,18 @@ web="WEB DEVELOPMENT";
 business="Business theme";
 content1="There are many variations of passages of Lorem Ipsum available, but the majority";
 view="view";
-  constructor() { }
+  constructor(private apiService: ApiService) { }
+  responseData:any ={};
+responsePortData={};
 
   ngOnInit() {
+    this.showPortData();
   }
-
+  showPortData() {
+    this.apiService.getportdata()
+      .subscribe((data:any) => {
+        console.log('port api respo:::', data);
+        this.responsePortData = data;
+      });
+  }
 }
